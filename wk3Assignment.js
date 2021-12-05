@@ -1,5 +1,4 @@
-<script src = 'wk3Assignment.js'></script> 
-
+<script src = 'arraysandfunctions.js'></script> 
 //Array called ages that contains the following values:
 var ages = [3,9,23,64,2,8,28,93];
 //printing the subtraction value of the first element in the array from the value in the last element
@@ -119,7 +118,7 @@ function willBuyDrink(isHotOutside,moneyInPocket) {
 }
 var isHotOutside = true;
 var moneyInPocket = 30.5;
-console.log('Drink can be buy: ',willBuyDrink(isHotOutside,moneyInPocket));
+console.log(willBuyDrink(isHotOutside,moneyInPocket));
 
 //13: I chose to pick a function that converts celsius to farenheit! 
 function convertToF(celsius) {
