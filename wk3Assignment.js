@@ -1,3 +1,5 @@
+<script src = 'wk3Assignment.js'></script> 
+
 //Array called ages that contains the following values:
 var ages = [3,9,23,64,2,8,28,93];
 //printing the subtraction value of the first element in the array from the value in the last element
