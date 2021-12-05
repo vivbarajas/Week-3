@@ -1,4 +1,3 @@
-<script src = 'arraysandfunctions.js'></script> 
 //Array called ages that contains the following values:
 var ages = [3,9,23,64,2,8,28,93];
 //printing the subtraction value of the first element in the array from the value in the last element
@@ -81,35 +80,45 @@ function isTotalGreaterThan100(arr)
     {
     sum = sum + arr[i];
     }
-    if (sum>100)
+    if(sum>100)
      {
     return true;
     }
-    else {
+    else 
+    {
     return false;
     }
+
     }
 
  //10
-function compareAverage(arr1,arr2) {
-    if(compareAverage(arr1) > compareAverage(arr2)) {
-        return true;
-    }
-    else {
-        return false;
+ function average(arr){
+     sum=0; {
+     for(i=0; i<arr.length; i++) {
+    sum = sum + arr[i];
+     }
+     }return (sum/arr.length);
+     }
+    
+
+//11
+function compareAverage(arr1,arr2)
+ {
+if(average(arr1)> average(arr2)) 
+{
+ return true;
+}
+else 
+{
+return false;
     }
 }
 
-//11
-var myArr = [2, 3, 4, 5, 6];
-var myArr2 = [7, 8, 9];
-console.log(isTotalGreaterThan100(myArr));
-console.log(average(myArr));
-console.log(compareAverage(myArr/myArr2.length));
-
 //12
-function willBuyDrink(isHotOutside,moneyInPocket) {
-    if((isHotOutside)&& (moneyInPocket > 10.50)) {
+function willBuyDrink(isHotOutside,moneyInPocket) 
+{
+    if((isHotOutside)&& (moneyInPocket > 10.50))
+     {
         return true;
     }
     else {
@@ -119,7 +128,6 @@ function willBuyDrink(isHotOutside,moneyInPocket) {
 var isHotOutside = true;
 var moneyInPocket = 30.5;
 console.log(willBuyDrink(isHotOutside,moneyInPocket));
-
 //13: I chose to pick a function that converts celsius to farenheit! 
 function convertToF(celsius) {
     let fahrenheit = celsius * (9 / 5) + 32;
